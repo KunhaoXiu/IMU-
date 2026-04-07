@@ -27,3 +27,30 @@ SMPL骨架
                |          |
            10 l_foot  11 r_foot
 ```
+```markdown
+0  pelvis
+├─ 1  left_hip
+│  └─ 4  left_knee
+│     └─ 7  left_ankle
+│        └─ 10 left_foot
+├─ 2  right_hip
+│  └─ 5  right_knee
+│     └─ 8  right_ankle
+│        └─ 11 right_foot
+└─ 3  spine1
+   └─ 6  spine2
+      └─ 9  spine3
+         ├─ 12 neck
+         │  └─ 15 head
+         ├─ 13 left_collar
+         │  └─ 16 left_shoulder
+         │     └─ 18 left_elbow
+         │        └─ 20 left_wrist
+         │           └─ 22 left_hand
+         └─ 14 right_collar
+            └─ 17 right_shoulder
+               └─ 19 right_elbow
+                  └─ 21 right_wrist
+                     └─ 23 right_hand
+```
+
